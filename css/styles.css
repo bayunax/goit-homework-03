@@ -1,0 +1,206 @@
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+body {
+font-family: 'Roboto' ,  sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+}
+.page-logo {
+    color:  #4D5AE5;
+        font-family: Raleway , sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.logo-studio {
+    color:  #2E2F42;
+}
+.menu-link {
+    color:  #2E2F42;
+    
+        /* Body Medium */
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+.font-address {
+    font-style: normal;
+}
+.adress-link {
+    color:  #434455;
+    
+        /* Body */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+}
+.adress-link:hover,
+.adress-link:focus {
+    color:#404BBF;
+}
+.color-back {
+    background:  #2E2F42;
+}
+.main-text {
+color:  #FFF;
+    text-align: center;
+
+    /* Header 1 */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 0.02em;
+}
+.but-service {
+color:  #FFF;
+background-color: #4D5AE5;
+
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+}
+.but-service:hover,
+.but-service:focus {
+    color:#ffffff;
+    background-color: #404BBF;
+}
+
+.second-section-title {
+    color:  #2E2F42;
+    
+        /* Header 3 */
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.02em;
+}
+.second-section-text {
+    color:  #434455;   
+        /* Body */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+}
+.third-section {
+    background-color: #F4F4FD;
+}
+.third-section-second {
+    color: var #2E2F42;
+        text-align: center;   
+        /* Header 2 */
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+.backcolor-third {
+   background-color: #FFFFFF;
+}
+.third-section-title {
+    color:  #2E2F42;
+        text-align: center;   
+        /* Header 3 */
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.02em;
+}
+.third-section-text {
+color: #434455;
+    text-align: center;
+    /* Body */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
+
+.fourth-section-way {
+color:  #2E2F42;
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+
+}
+.fourth-section-title {
+    color:  #2E2F42;
+    
+        /* Header 3 */
+
+        font-size: 20px;
+
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.02em;
+}
+.fourth-section-text {
+    color: #434455;
+    
+        /* Body */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+}
+.footer-back {
+    background: #2E2F42;
+}
+.footer-logo {
+    color: #4D5AE5;
+        font-family: 'Raleway' , sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.logo-studio-footer {
+
+color:#F4F4FD;
+}
+.footer-text {
+    color: #F4F4FD;    
+        /* Body */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+}
