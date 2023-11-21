@@ -71,7 +71,7 @@ background-color: #FFFFFF;
 .container-headar {
     width: 1158px;
     display: flex;
-    margin: 0 auto;
+   
 }
 
 .main-nav {
@@ -80,7 +80,7 @@ background-color: #FFFFFF;
 }
 .page-headar {
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
+    
     
     padding: 0 15px 0 15px;
 }
