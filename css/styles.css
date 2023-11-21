@@ -70,15 +70,12 @@ background-color: #FFFFFF;
 /*----------- header style------------------- */
 .container-headar {
     width: 1158px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .main-nav {
-    display: flex;
-   
-    
+    display: flex; 
     align-items: center;
 }
 .page-headar {
@@ -134,7 +131,7 @@ background-color: #FFFFFF;
 
 .list-adress {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     padding-top: 24px;
         padding-bottom: 24px;
         
@@ -422,6 +419,8 @@ color:  #2E2F42;
 .card-portfolio {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
+    border-right: none;
 
 }
 
