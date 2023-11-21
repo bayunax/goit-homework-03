@@ -69,9 +69,8 @@ background-color: #FFFFFF;
 
 /*----------- header style------------------- */
 .container-headar {
-    width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1158px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -353,6 +352,11 @@ color: #434455;
 /* -----------------------------/second section---------------------------------- */
 
 /*------------------------------- third section ------------------------------------*/
+.section-porfolio {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .third-section-way {
 color:  #2E2F42;
     text-align: center;
@@ -416,7 +420,8 @@ color:  #2E2F42;
         text-align: center;
 }
 .card-portfolio {
-    padding: 32px 0;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 
 }
 
