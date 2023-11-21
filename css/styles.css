@@ -54,7 +54,7 @@ background-color: #FFFFFF;
     overflow: hidden;
 }
 
-.containar {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -83,7 +83,10 @@ background-color: #FFFFFF;
     align-items: center;
 }
 .page-headar {
-    
+    border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .page-logo {
@@ -104,7 +107,9 @@ background-color: #FFFFFF;
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
+    margin-left: 43px;
+    align-items: center;
 }
 .menu-link {
     color:  #2E2F42;
@@ -158,6 +163,7 @@ background-color: #FFFFFF;
 /*---------------- hero selection----------------- */
 .color-back {
     background:  #2E2F42;
+    padding: 188px 0;
 }
 .main-text {
 color:  #FFF;
@@ -256,7 +262,7 @@ background-color: #4D5AE5;
 .first-section-link {
     width: calc((100% - 72px) / 4);
     list-style: none;
-    margin-right: 24px;
+   
 }
 .first-section-link:last-child {
     margin-right: 0;
@@ -296,7 +302,7 @@ background-color: #4D5AE5;
         text-transform: capitalize;
         justify-content: center;
         padding-top: 120px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 .backcolor-second {
    background-color: #FFFFFF;
@@ -304,16 +310,21 @@ background-color: #4D5AE5;
 
 .second-section-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     justify-content: center;
 }
 
 .second-section-link {
     width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
 .img-second-section {
     display: block, max-width: 100%, height: auto
+}
+
+.section-team {
+    padding: 32px 0;
 }
 .second-section-title {
     color:  #2E2F42;
@@ -324,6 +335,8 @@ background-color: #4D5AE5;
         line-height: 1.2;
         /* 120% */
         letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 8px;
 }
 .second-section-text {
 color: #434455;
@@ -334,6 +347,7 @@ color: #434455;
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* -----------------------------/second section---------------------------------- */
@@ -350,13 +364,14 @@ color:  #2E2F42;
     letter-spacing: 0.02;
     text-transform: capitalize;
     padding-top: 120px;
+    margin-bottom: 72px;
 
 }
 
 .third-setion-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 24px;
     row-gap: 48px;
     padding: 72px 0 120px 0;
     list-style-type: none;
@@ -375,33 +390,34 @@ color:  #2E2F42;
     flex-direction: column;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 24px;
     row-gap: 48px;
+    border-radius: 0 0 4px 4px;
 }
 .third-section-title {
-    color:  #2E2F42;
-    
+    color:  #2E2F42;   
         /* Header 3 */
-
         font-size: 20px;
-
         font-weight: 500;
         line-height: 1.2;
         /* 120% */
         letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 8px;
 }
 .third-section-text {
-    color: #434455;
-    
+    color: #434455;  
         /* Body */
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+        text-align: center;
 }
 .card-portfolio {
-    padding: 32px 16px;
+    padding: 32px 0;
+
 }
 
 /*----------------------- /third section------------------------------- */
@@ -409,6 +425,7 @@ color:  #2E2F42;
 /*------------------------ food section ------------------------------------*/
 .footer-back {
     background: #2E2F42;
+    padding: 100px 0;
 }
 .footer-logo {
     color: #4D5AE5;
