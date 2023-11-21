@@ -82,7 +82,7 @@ background-color: #FFFFFF;
 .page-headar {
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
-    margin: 0 auto;
+    
     padding: 0 15px 0 15px;
 }
 
@@ -351,9 +351,9 @@ color: #434455;
 
 /*------------------------------- third section ------------------------------------*/
 .section-porfolio {
-padding-top: 120px;
-padding-bottom: 120px;
-display: flex;
+padding: 120px 0 120px 0;
+display: block;
+
 }
 
 .third-section-way {
@@ -366,7 +366,7 @@ color:  #2E2F42;
     /* 111.111% */
     letter-spacing: 0.02;
     text-transform: capitalize;
-    padding-top: 120px;
+    
     margin-bottom: 72px;
 
 }
