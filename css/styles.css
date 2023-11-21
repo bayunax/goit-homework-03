@@ -71,7 +71,6 @@ background-color: #FFFFFF;
 .container-headar {
     width: 1158px;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
 }
 
