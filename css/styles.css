@@ -72,6 +72,7 @@ background-color: #FFFFFF;
     width: 1158px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .main-nav {
@@ -352,6 +353,7 @@ color: #434455;
 .section-porfolio {
 padding-top: 120px;
 padding-bottom: 120px;
+display: flex;
 }
 
 .third-section-way {
